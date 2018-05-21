@@ -1,0 +1,179 @@
+body {
+	background: #ff0000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff0000 0%, #000000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ff0000 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ff0000 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	color: black;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-top: 80px;
+	text-align:center;
+}
+
+h1{
+	text-align: center;
+	color: red;
+	
+}
+
+h2{
+	text-align: center;
+	color: red;
+	font-family: 'Lobster', cursive;
+	
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.header {
+	background: black;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	line-height: 20px;
+}
+
+p{
+	  font-family: 'Lora', serif;
+	  font-size: 15px;
+	  line-height: 18px;
+	  text-align: justify;
+}
+
+.header a {
+	color: white;
+}
+
+.logo {
+	text-align: center;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	.logo:hover {
+		color: #0b76a6;
+	}
+	
+	.logo .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	.logo .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+.header a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+#content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+#content header, #content .content {
+	padding: 40px;
+}
+/*Estilo footer*/
+.footer {
+	background: red;
+	color: white;
+	padding: 20px;
+	margin-top: 40px;
+	bottom: 0;
+	height: 50px;
+}
+	.footer p {
+	margin: 0;
+}
+
+.cursive{
+    font-family: 'Lobster', cursive;
+}
+
+.lora{
+    font-family: 'Lora', serif;
+}
+
+.tam-peq{
+	font-size: 15px;
+}
+
+.tam-med{
+	font-size: 25px;
+}
+
+.tam-gran{
+	font-size: 35px;
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+a.icon {
+	color: white;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+	text-decoration: none;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	color: white;
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+.icon:visited{
+	text-decoration: none;
+	color: white;
+}
